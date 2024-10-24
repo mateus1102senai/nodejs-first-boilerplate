@@ -1,0 +1,26 @@
+{
+  "name": "2tds2-nodejs-first-boilerplate",
+  "version": "1.0.0",
+  "description": "Projeto base em nodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateus1102senai/nodejs-first-boilerplate.git"
+  },
+  "keywords": [
+    "SENAI",
+    "nodeJS",
+    "Github",
+    "Rollerplace",
+    "Dev"
+  ],
+  "author": "Mateus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateus1102senai/nodejs-first-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mateus1102senai/nodejs-first-boilerplate#readme"
+}
