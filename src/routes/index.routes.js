@@ -1,7 +1,7 @@
 import { Router } from "express";
 
 // Lista de importação das rotas do projeto
-import candidatosRoutes from "./candidatos.routes.js";
+import usuariosRoutes from "./usuarios.routes.js";
 
 const routes = Router();
 
