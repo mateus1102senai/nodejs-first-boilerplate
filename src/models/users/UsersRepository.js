@@ -22,8 +22,21 @@ class UsersRepository {
 
     return usuario;
   }
-}
 
+  uptadeUser(id, name, email, password) {
+    const usuario = this.getUserById(id);
+
+    if (!usuario) {
+      return null;
+    }
+
+    usuario.name = name;
+    usuario.email = email;
+    usuario.password = password;
+
+    return usuario;
+  }
+}
 
 
 export default UsersRepository;
